@@ -16,7 +16,7 @@ The easiest way to run the agent is by building and running the provided docker 
 ### Requirements
 
 - Docker (19.03+)
-- Nvidia docker (https://github.com/NVIDIA/nvidia-docker)
+- NVIDIA Container Toolkit ([https://github.com/NVIDIA/nvidia-docker](https://github.com/NVIDIA/nvidia-container-toolkit))
 
 ### Setup
 
@@ -25,6 +25,8 @@ Firstly clone the carla autoware repository, where additional [autoware contents
 ```sh
 git clone --recurse-submodules https://github.com/carla-simulator/carla-autoware
 ```
+
+If you run into a "gpg error no public key" problem => <https://beelinekim.tistory.com/80>
 
 Afterwards, build the image with the following command:
 
@@ -57,3 +59,4 @@ roslaunch carla_autoware_agent carla_autoware_agent.launch town:=Town01
 ## CARLA Autoware contents
 The [autoware-contents](https://bitbucket.org/carla-simulator/autoware-contents.git) repository contains additional data required to run Autoware with CARLA, including the point cloud maps, vector maps and configuration files.
 
+## Detail Install Guide(Error&Autoware.. etc.) <https://blog.csdn.net/Xiong2840?type=blog>
