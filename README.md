@@ -26,13 +26,13 @@ Firstly clone the carla autoware repository, where additional [autoware contents
 git clone --recurse-submodules https://github.com/carla-simulator/carla-autoware
 ```
 
-If you run into a "gpg error no public key" problem => <https://beelinekim.tistory.com/80>
-
 Afterwards, build the image with the following command:
 
 ```sh
 cd carla-autoware && ./build.sh
 ```
+
+If you run into a "gpg error no public key" problem => <https://beelinekim.tistory.com/80>
 
 This will generate a `carla-autoware:latest` docker image.
 
