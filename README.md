@@ -21,6 +21,7 @@ The easiest way to run the agent is by building and running the provided docker 
 ### Setup
 
 Firstly clone the carla autoware repository, where additional [autoware contents](https://bitbucket.org/carla-simulator/autoware-contents.git) are included as a submodule:
+Note! You use git-lfs => <https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage>
 
 ```sh
 git clone --recurse-submodules https://github.com/carla-simulator/carla-autoware
